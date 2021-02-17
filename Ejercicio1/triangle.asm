@@ -9,8 +9,6 @@ addi $t3, $zero, 0 ; varible espaciador=0
 
 ; fail no sirve...
 
-
-
 draw_triangle:
 ciclo_altura:
     beq $t2, $t0, fin_cicloAltura ; ir validando la altura
