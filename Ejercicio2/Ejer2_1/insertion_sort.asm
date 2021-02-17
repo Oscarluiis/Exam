@@ -13,18 +13,22 @@ swap_function:
 
 ; int temp = *n1;
 ; *n1 = *n2;
+
 ; *n2 = temp;
 ; ¿¡!?
 
 
 insertionSort:
     ; t0 -> i
+    
     ; t1 -> j
+    
     li $t0, 1
     for_sort:
             ; i < size
             slt $t1, $a3, end_for_sort
             ; j = i
+            
             move $t2, $t0
             
             while_medio:
@@ -67,3 +71,6 @@ insertionSort:
     end_for_sort
     jr $ra
 
+    
+    
+    

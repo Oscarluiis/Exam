@@ -21,3 +21,6 @@ $L2:
     move $v0, $zero
     addiu $sp, $sp, 24
     jr $ra
+
+    
+    

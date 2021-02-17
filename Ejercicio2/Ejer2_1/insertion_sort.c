@@ -14,6 +14,8 @@ void insertionSort(int numbers[], int size)
         {
             swap(&numbers[j - 1], &numbers[j]);
             j--;
+            
+            
         }
     }
 
