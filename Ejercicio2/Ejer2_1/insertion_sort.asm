@@ -15,9 +15,6 @@ swap_function:
 ; *n1 = *n2;
 
 ; *n2 = temp;
-; ¿¡!?
-
-
 
 
 insertionSort:

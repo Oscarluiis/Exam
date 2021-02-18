@@ -7,7 +7,7 @@ addi $t1, $t0, -1 ; variable filasEspacio=t0-1
 addi $t2, $zero, 0 ; variable filasCaracter=0
 addi $t3, $zero, 0 ; varible espaciador=0
 
-; fail no sirve...
+
 
 draw_triangle:
 ciclo_altura:
